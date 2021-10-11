@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Resume</title>
+<link rel="stylesheet" href="resumestyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body ID="homemain">
+<nav>
+ <ul>
+   <li class="navli"><a href="C:/Users/artem/Documents/Resume-sites/resume-home.html">Home</a></li>
+   <li class="navli"><a href="C:/Users/artem/Documents/Resume-sites/contact-site.html">Contact Me</a></li>
+   <li class="navli"><a href="C:/Users/artem/Documents/Resume-sites/about.html">About Me</a></li>
+   <li class="navli"><a href="C:/Users/artem/Documents/Resume-sites/portfolio.html">Portfolio</a></li>
+  </ul>
+</nav>
+<header ID="name">
+ <h1>Hi, I'm Cecia Blanca</h1>
+</header>
+<section{border-width:5px;border-style:inset;}>
+<article ID="intro">
+ This site is my online resume; I'd love to work with you & your business. Check the navigation bar for other pages.
+</article>
+</section>
+</head>
+</html>
