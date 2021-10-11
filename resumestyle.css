@@ -1,0 +1,47 @@
+body{background-color:#330000;color:#FFCC99;}
+ul{list-style-type:none;margin:10;padding:0;overflow:hidden;background-color:#000000;color:#FFFFFF;}
+.navli{float:left;}
+.navli a{display:block;color:#FEFCFC;text-align:center;padding:14px 16px;text-decoration:none;}
+.navli a:{hover{background-color:#330000;}}
+.active{background-color:#CC3300;}
+#intro{background-color:transparent;border-width:5px;border-style:inset;border-color:#9DD932; height:500px; width:50%;margin-bottom:50px;}
+
+#about{background-color:transparent;color:#FFFFFF;display:block;padding:16px 16px;border-color:#0A182A;height:500px;box-shadow: 10px 10px 5px grey;margin-bottom:50px;animation-name:abouttext;animation-duration:2s;}
+
+#skills{background-color:transparent;color:#FEFCFC;border-width:5px;border-style:inset;border-color:#AEC0D9;height:500px; width:50%;box-shadow: 10px 10px 5px grey;margin-bottom:50px;animation-name:boxmoverl;animation-duration:4s;animation-timing-function:ease-out;}
+
+#achievements{background-color:transparent;color:#FEFCFC;border-width:5px;border-style:inset;border-color:#214B85;height:500px;box-shadow: 10px 10px 5px grey;margin-bottom:50px;animation-name:abouttext;animation-duration:2s;}
+
+#PersonalEvaluation{background-color:transparent;color:#FEFCFC;border-width:5px;border-style:inset;border-color:#9BAEC8;height:500px; width:50%;box-shadow: 10px 10px 5px grey;margin-bottom:50px;animation-name:boxmoverl;animation-duration:4s;animation-timing-function:ease-out;}
+
+#Referees{background-color:transparent;color:#FEFCFC;border-width:5px;border-style:inset;border-color:#26374E;height:500px;box-shadow: 10px 10px 5px grey;margin-bottom:50px;animation-name:abouttext;animation-duration:2s;}
+
+#contact{background-color:transparent;border-width:5px;border-style:inset;border-color:#031710;height:500px; width:50%;box-shadow: 10px 10px 5px grey;margin-bottom:50px;animation-name:boxmoverl;animation-duration:2s;animation-timing-function:ease-out;}
+
+#portintro{background-color:transparent;color:#FFFFFF;border-width:5px;border-style:inset;border-color:#FFFFFF;text-align:center;height:500px;margin-bottom:50px;animation-name:boxmoveu;animation-duration:4s;animation-timing-function:ease-out;}
+
+#aboutmain{background-image:radial-gradient(#191919, #3679D4);color:#E8E8E8;}
+#contactmain{background-image:linear-gradient(to left,#0B3024,#39F0B4, #74F4CA);color:#FFFFFF;}
+#portmain{background-image:linear-gradient(120deg,#333445, #70729A, #B9BCF7);color:#FEFCFC;}
+#homemain{background-image:linear-gradient(to left,#D7F89B , #AFF238,#191919 70% ); color:#FFFFFF;}
+article{font-family:Monaco, monospace;color:#9FEFCFC;line-height:1.8;white-space: wrap;padding-bottom:50px;}
+h1{font-family:Monaco, monospace;color:#FFFFFF;text-decoration:overline;padding-bottom:50px;}
+h2{font-family:Monaco, monospace; color:#FFFFFF;text-decoration:underline;padding-bottom:50px;}
+p{font-family:Monaco, monospace; color:#FFFFFF;text-decoration:underline;padding-bottom:50px;}
+td{border-bottom:1px solid;border-bottom-color:#031710;background-color:#22906C;}
+tr{border-bottom:1px solid;border-bottom-color:#031710;background-color:#031710;}
+table{padding-bottom:50px;padding-top:50px;}
+
+img{opacity:0.5;}
+img:hover{opacity:1.0;}
+.flex-container{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:space-between;align-items:right;background-color:#FFFFFF;opacity:0.3;}
+#caption{margin:auto;display:block;width:80%;max-width:500px;text-align:center;color:#191919;padding:10px 0;height:150px;font-family:monaco, monospace;}
+#button{position:absolute; top:15px;color:#F1F1F1; font-size:40px; font-weight:bold; transition:0.3s;}
+
+
+
+@keyframes abouttext{from{color:transparent;} to{color:#FFFFFF;}}
+@keyframes boxmoverl{from{margin-left:100%;} to{margin-left:0%;}}
+@keyframes boxmoveu{from{margin-top:50%;} to{margin-top:0%;}}
+<!-- next are pic setting I think, might have animations in here later.Look into animation for sections as well, they use keyframes. baller. Transform:sclae(number) is a zoom function --!>
+
